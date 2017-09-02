@@ -1,0 +1,55 @@
+/** Geral */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* cinza #6b6b6b */
+
+h1, h2, h3, .activate > a {
+    color: #fff;
+}
+
+.clear { clear: both; }
+
+/** Header */
+
+header > nav > ul {
+    display: inline-flex;
+    list-style: none;
+    float: right
+}
+
+header > nav > ul {
+    height: 68px;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+    float: right
+}
+
+header > nav > ul > li {
+    padding: 25px 15px;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: #231f20;
+    font-weight: bold;
+}
+
+header > nav > h1 {
+    color: #231f20;
+    float: left;
+}
+
+nav {
+    box-shadow: 0 0 3px #231f20;
+    padding: 0 25px;
+}
+
+.activate {
+    background-color: #fdc236;
+}
