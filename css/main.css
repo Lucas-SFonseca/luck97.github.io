@@ -7,11 +7,44 @@ body {
 
 /* cinza #6b6b6b */
 
-h1, h2, h3, .activate > a {
+h1, h2, h3, .activate > a, .btn > a {
     color: #fff;
 }
 
+header > nav > ul > li > a,
+header > nav > h1,
+.btn:hover > a,
+.diferenciais > h2 {
+    color: #231f20;
+}
+
+header > nav > ul > li > a, .btn > a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .clear { clear: both; }
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/** Buttons */
+
+.btn {
+    background-color: #231f20;
+    padding: 20px;
+}
+
+.btn:hover {
+    border: 2px solid #231f20;
+    padding: 18px;
+    background-color: #fff;
+}
 
 /** Header */
 
@@ -34,14 +67,7 @@ header > nav > ul > li {
     padding: 25px 15px;
 }
 
-header > nav > ul > li > a {
-    text-decoration: none;
-    color: #231f20;
-    font-weight: bold;
-}
-
 header > nav > h1 {
-    color: #231f20;
     float: left;
 }
 
@@ -52,4 +78,13 @@ nav {
 
 .activate {
     background-color: #fdc236;
+}
+
+/** Footer cinza link #a6a6a6 */
+
+.copyright {
+    color: #fff;
+    background-color: #231f20;
+    padding: 10px;
+    text-align: center;
 }
