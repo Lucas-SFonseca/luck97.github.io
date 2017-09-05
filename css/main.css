@@ -12,7 +12,7 @@ h1, h2, h3, .activate > a, .btn > a {
 }
 
 header > nav > ul > li > a,
-header > nav > h1,
+.logo > h1,
 .btn:hover > a,
 .diferenciais > h2 {
     color: #231f20;
@@ -57,31 +57,22 @@ header > nav > ul > li > a, .btn > a {
 }
 
 /** Header */
-
 header > nav > ul {
-    display: inline-flex;
-    list-style: none;
-    float: right
-}
-
-header > nav > ul {
-    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
     margin: 0;
     padding: 0;
-    display: inline-flex;
     list-style: none;
-    float: right
 }
 
 header > nav > ul > li {
     padding: 25px 15px;
 }
 
-header > nav > h1 {
-    float: left;
-}
-
 nav {
+    display: flex;
+    justify-content: space-between;  
     box-shadow: 0 0 3px #231f20;
     padding: 0 25px;
 }
