@@ -21,4 +21,8 @@
     .banner {
         height: 300px;
     }
+
+    .blocos > article {
+        flex-basis: 90%;
+    }
 }
