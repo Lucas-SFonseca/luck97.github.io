@@ -26,15 +26,15 @@
 		<section>
 			<article>
 				<h3 class="titulo">Digite suas informações para alterar a senha</h3><br><br>
-				<form>
+				<form method="POST">
 					<label for="email">E-mail:</label><br>
-					<input type="text" name="email"></input><br><br>
+					<input type="email" name="email" required/><br><br>
 					<label for="ra">Ra:</label><br>
-					<input type="text" name="ra"></input><br><br>
+					<input type="text" name="ra" required/><br><br>
 					<label for="senhaN">Nova Senha:</label><br>
-					<input type="password" name="SenhaA"></input><br><br>
+					<input type="password" name="SenhaA" minlength="6" onchange="form.SenhaN.pattern = this.value;" required/><br><br>
 					<label for="SenhaCn">Confirme a Nova Senha:</label><br>
-					<input type="password" name="SenhaN"></input><br><br>
+					<input type="password" name="SenhaN" required/><br><br>
 					<button type="reset" value="limpar" class="botao">Limpar</button>
 					<button type="submit" value="Submeter" class="botao">Enviar</button>
 				</form>
