@@ -70,4 +70,11 @@ article {
 	text-align: center;
 }
 
+a {
+	color: #231f20;
+}
 
+.a {
+	color: #231f20;
+	text-decoration: none;
+}

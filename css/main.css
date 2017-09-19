@@ -46,11 +46,16 @@ header > nav > ul > li > a, .btn > a {
 /** Buttons */
 
 .btn {
-    background-color: #231f20;
     padding: 20px;
 }
 
-.btn:hover {
+.btn-black{
+	background-color: #231f20;
+	
+}
+
+
+.btn-black:hover {
     border: 2px solid #231f20;
     padding: 18px;
     background-color: #fff;
