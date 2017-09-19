@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/mediaquery.css">
 </head>
 <body>
@@ -15,52 +15,47 @@
                 <h1>Faculdade Impacta</h1>
             </div>
             <ul>
-                <li><a href="#">Homepage</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="listaCursos.html">Lista de Cursos</a></li>
                 <li><a href="noticias.html">Notícias</a></li>
 				<li class="activate"><a href="contato.html">Contato</a></li>
+				<li><a href="entrar.html">Entrar</a></li>
             </ul>
 		</nav>
     </header>
 
-<link rel="stylesheet" href="css/contato.css" /> 
+
 
 <h1>FALE CONOSCO!</h1>
 
 <div class="cad">
 <form METHOD="POST" class="centro">
+	<br/><label for="nome" class="alinha">Nome:</label></br>
+	<input type="text" name="nome" class="bloco" required="true" >
+	<br/>
+	</br><label for="email" class="alinha">E-mail:</label></br>
 
-	<div class="fundo">
-		<br/><label for="nome" class="alinha">Nome:</label></br>
-		<input type="text" name="nome" class="bloco" required="true" >
-		<br/>
-		</br><label for="email" class="alinha">E-mail:</label></br>
+	<input type="email" name="email" class="bloco" required="true"></br>
+	</br><label for="contato" class="alinha">Contato:</label></br>
+	<input type="text" name="contato" class="bloco" required="true"></br>
 
-		<input type="email" name="email" class="bloco" required="true"></br>
-		</br><label for="contato" class="alinha">Contato:</label></br>
-		<input type="text" name="contato" class="bloco" required="true"></br>
+	</br><label for="assunto" class="alinha">Assunto:</label></br>
+	<input type="text" name="assunto" class="bloco" placeholder="Sugestão"></br>
 
-		</br><label for="assunto" class="alinha">Assunto:</label></br>
-		<input type="text" name="assunto" class="bloco" placeholder="Sugestão"></br>
-
-		</br><label for ="mensagem" class="alinha">Mensagem:</label></br>
-		<textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" class="alinhacaixa"></textarea>
-		</br>
-		<button type="submit">Enviar</button>
-		<button type="reset">Limpar</button>
-
-	</div>
+	</br><label for ="mensagem" class="alinha">Mensagem:</label></br>
+	<textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" class="alinhacaixa"></textarea>
+	</br>
+	<button type="submit">Enviar</button>
+	<button type="reset">Limpar</button>
 </div>
 </form>
-<footer>
-        
+
+
+	<footer>
+        <div class="copyright">© IMPACTA 2015. Todos os direitos reservados. Tel.: 11 3254-8300 / CAMPUS BARRA FUNDA - Av. Rudge, 315</div>
     </footer>
-    <div class="copyright">© IMPACTA 2015. Todos os direitos reservados. Tel.: 11 3254-8300 / CAMPUS BARRA FUNDA - Av. Rudge, 315</div>
 
 
 </body>
-
-
-
 
 </html>

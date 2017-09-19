@@ -1,46 +1,39 @@
-.centro
-{
-	text-align:center;
-	font-size: 30px ;
-}
- .centro > h1
- {
-	 text-align: center;
-	 
- }
-
-.fundo 
-{
-    background-color: #fdc236;
-    color: black;
-    font-weight: bold;
-    font-size: 30px;
-	font-family:Arial;
+.cad {
+    display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+    padding: 15px 0px;
+    border: 2.6px solid;
+    border-color: rgba(0,0,0,0.0);
+    box-shadow: 4px 4px 11px 0px #231f20;
+    border-radius: 15px;
+    margin: 2% 11%;
+	
 }
 
-.alinha
-{
-	display: inline-block;
-	width: 120px;
-	height: 60px;
-}
-.alinhacaixa
-{
-	display: inline-block;
-	width: 520px;
-	height: 160px;
+
+input{
+	color: #fdc236;
+	box-shadow: 0.5px 0.5px 1px 0.5px #231f20;
+	border-radius: 4px;
 }
 
-.bloco
-{
-	width: 400px;
-	height: 20px;
+button{
+	cursor: pointer;
+	border-radius: 6px;
+	color: #fdc236;
+	box-shadow: 1px 1px 2px 1px #231f20;
+	background-color: #231f20;
 }
 
-.preto
-{
-	color:black;
+a {
+	color: #fdc236;
+	text-decoration: none;
 }
-.amarelo{
-	background-color: #fdc236;
+
+
+h1{
+	color: #231f20;
+	text-align: center;
+	
 }
