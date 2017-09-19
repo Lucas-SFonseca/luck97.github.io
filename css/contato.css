@@ -1,0 +1,46 @@
+.centro
+{
+	text-align:center;
+	font-size: 30px ;
+}
+ .centro > h1
+ {
+	 text-align: center;
+	 
+ }
+
+.fundo 
+{
+    background-color: #fdc236;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+	font-family:Arial;
+}
+
+.alinha
+{
+	display: inline-block;
+	width: 120px;
+	height: 60px;
+}
+.alinhacaixa
+{
+	display: inline-block;
+	width: 520px;
+	height: 160px;
+}
+
+.bloco
+{
+	width: 400px;
+	height: 20px;
+}
+
+.preto
+{
+	color:black;
+}
+.amarelo{
+	background-color: #fdc236;
+}
