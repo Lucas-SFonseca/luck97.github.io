@@ -1,0 +1,103 @@
+/** Geral */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* cinza #6b6b6b */
+
+h1, h2, h3, .activate > a, .btn > a {
+    color: #fff;
+}
+
+header > nav > ul > li > a,
+header > nav > h1,
+.btn:hover > a,
+.diferenciais > h2 {
+    color: #231f20;
+}
+
+header > nav > ul > li > a, .btn > a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.clear { clear: both; }
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/** Buttons */
+
+.btn {
+    background-color: #231f20;
+    padding: 20px;
+	text-align: center;
+	
+
+	width: 100px;
+	height: 25px;
+
+}
+
+.btn:hover {
+    border: 2px solid #231f20;
+    padding: 18px;
+    background-color: #fff;
+}
+
+/** Header */
+
+header > nav > ul {
+    display: inline-flex;
+    list-style: none;
+    float: right
+}
+
+header > nav > ul {
+    height: 68px;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+    float: right
+}
+
+header > nav > ul > li {
+    padding: 25px 15px;
+}
+
+header > nav > h1 {
+    float: left;
+}
+
+nav {
+    box-shadow: 0 0 3px #231f20;
+    padding: 0 25px;
+}
+
+.activate {
+    background-color: #fdc236;
+}
+
+/** Footer cinza link #a6a6a6 */
+
+.copyright {
+    color: #fff;
+    background-color: #231f20;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: #231f20;
+}
+
+
