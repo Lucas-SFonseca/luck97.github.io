@@ -21,3 +21,19 @@
 .grade > ul {
     list-style: none;
 }
+
+.calltoaction {
+    padding: 15px 30px;
+    background-color: #fdc236;
+	
+}
+
+.calltoaction > .grade {
+    float: left;
+  
+}
+
+.calltoaction > .btn {
+    float: right;
+	margin: 22px;
+}
