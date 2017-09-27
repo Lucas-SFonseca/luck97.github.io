@@ -13,7 +13,9 @@ h3{
     text-align: center;
 	color:#231f20;
 }
-
+.n1, .n2 , .n3{
+		border-top: 25px solid #fdc236;
+}
 article{
 
 	height: 100%;
