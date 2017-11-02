@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title >Faculdade Impacta</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href=" {% static 'css\novaDisciplina.css' %} ">
+</head>
+<body>
+    <header >
+        <nav class="menu">
+            <h1 class="menu">Faculdade Impacta</h1>
+            <ul >
+                <li ><a href="homepage.html">Homepage</a></li>
+                <li ><a href="listaCursos.html">Lista de Cursos</a></li>
+                <li ><a href="noticias.html">Notícias</a></li>
+			</ul>
+			<div class="clear"></div>
+        </nav>
+    </header>
+   <section>
+	   <article>
+		   <h3> Cadastro de Disciplinas </h3>
+	   </article>
+   </section>
+   <section>
+	   <form >
+		   <label>Professor:</label>
+
+		   <select >
+			   <option> --Selecione-- </option>
+			   <option value="001"> Yuri </option>
+			   <option value="002"> Edson </option>
+			   <option value="003"> Takai </option>
+			   <option value="004"> Claudio </option>
+		   </select>
+
+		   <label>Horas Mensais:</label>
+		   <input class="campos" type="Time" />
+		   <label> Hora Aula: </label>
+		   <input class="campos" type="Time" />
+		   <label>Dias da Semana: </label>
+		   <input type="checkbox" name="Day" value="1"/> Segunda-Feira
+		   <input type="checkbox" name="Day" value="2"/> Terça-Feira
+		   <input type="checkbox" name="Day" value="3"/> Quarta-Feira
+		   <input type="checkbox" name="Day" value="4"/> Quinta-Feira
+		   <input type="checkbox" name="Day" value="5"/> Sexta-Feira
+		   <input type="checkbox" name="Day" value="6"/> Sábado
+
+			<label>Ementa</label>
+		   <Textarea></Textarea> </br>
+		   <button type="submit">Cadastrar Disciplina</button>
+	   </form></br></br>
+   </section>
+
+    <footer>
+
+	</footer>
+	<div class="copyright">© IMPACTA 2015. Todos os direitos reservados. Tel.: 11 3254-8300 / CAMPUS BARRA FUNDA - Av. Rudge, 315</div>
+</body>
+</html>

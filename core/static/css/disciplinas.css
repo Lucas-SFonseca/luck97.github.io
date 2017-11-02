@@ -1,0 +1,187 @@
+/** Geral */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header > nav > ul > li > a,
+header > nav > h1,
+.btn:hover > a,
+.diferenciais > h2 {
+    color: #231f20;
+}
+
+header > nav > ul > li > a, .btn > a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.clear { clear: both; }
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/** Buttons */
+
+.btn {
+    background-color: #231f20;
+    padding: 20px;
+	text-align: center;
+	
+
+	width: 100px;
+	height: 25px;
+
+}
+
+.btn:hover {
+    border: 2px solid #231f20;
+    padding: 18px;
+    background-color: #fff;
+}
+
+/** Header */
+
+header > nav > ul {
+    display: inline-flex;
+    list-style: none;
+    float: right
+}
+
+header > nav > ul {
+    height: 68px;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+    float: right
+}
+
+header > nav > ul > li {
+    padding: 25px 15px;
+}
+
+header > nav > h1 {
+    float: left;
+}
+
+nav {
+    box-shadow: 0 0 3px #231f20;
+    padding: 0 25px;
+}
+
+.activate {
+    background-color: #fdc236;
+}
+
+/** Footer cinza link #a6a6a6 */
+
+.copyright {
+    color: #fff;
+    background-color: #231f20;
+    padding: 10px;
+    text-align: center;
+}
+
+.art {
+	width: 500px;
+    height: 320px;
+    text-align: center;
+    flex-basis: 45%;
+    padding: 0px 1px;
+    border: 2px solid;
+    border-color: rgba(0,0,0,0.0);
+    border-radius: 0px;
+    margin: 20px 30px;
+
+
+}
+.blocos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+article > img {
+    width: 80%;
+    height: 60%;
+}
+
+h1{
+	color: black;
+	text-align:center;
+}
+
+
+.verticalsanfona ul {
+margin: 20px;
+padding: 10px;
+list-style:none;
+width: auto;
+}
+
+.verticalsanfona ul li {
+display:block;
+overflow: hidden;
+margin: 20px;
+padding: 10px;
+list-style:none;
+height:40px;
+width: auto;
+background-color: #fff;
+transition: height 0.3s ease-in-out;
+-moz-transition: height 0.3s ease-in-out;
+-webkit-transition: height 0.3s ease-in-out;
+-o-transition: height 0.3s ease-in-out;
+}
+
+.verticalsanfona ul li h3 {
+display:block;
+margin: 20;
+padding:10px;
+padding-left:20px;
+height:19px;
+border-top: black 2px solid;
+	font-family: Arial, Helvetica, sans-serif;
+text-decoration:none;
+text-transform:capitalize;
+color: black;
+background: #fff repeat;
+text-align: left;
+font-size:16px;
+}
+.verticalsanfona ul li h3 a{
+color: #000;
+}
+
+.verticalsanfona ul li h3 a:hover{
+color: #fff;
+}
+
+.verticalsanfona ul li div {
+margin: 20px;
+overflow: auto;
+padding:10px;
+padding-left:20px;
+height:420px;
+}
+
+.verticalsanfona ul li:hover {
+height: 480px;
+}
+
+.verticalsanfona:hover ul li:hover h3 {
+color: black;
+background: #fdc236 ;
+}
+
+.verticalsanfona ul li h3:hover {
+cursor:pointer;
+}
+
