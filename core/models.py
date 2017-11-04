@@ -3,7 +3,13 @@ from django.db import models
 
 class Disciplinas(models.Model):
 
-    professor = models.CharField("Professor", max_length=50)
-    horasMensais = models.CharField("horasMensais", max_length=100)
-    horaAula = models.CharField("horaAula", max_length=10)
-    ementa = models.CharField("ementa",max_length=1000)
+    nome = models.CharField("nome",max_length=240)
+    carga_horaria = models.IntegerField("carga_horaria")
+    teoria = models.DecimalField("teoria",max_digits=10,decimal_places=3)
+    pratica = models.DecimalField("teoria",max_digits=10,decimal_places=3)
+    ementa = models.TextField("ementa")
+    competencias = models.TextField("competencias")
+    habilidades = models.TextField("habilidades")
+    conteudo = models.TextField("conteudo")
+    bibliografia_basica = models.TextField("bibliografia_basica")
+    bibliografia_complementar = models.TextField("bibliografia_complementar")
